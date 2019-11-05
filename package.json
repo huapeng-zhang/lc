@@ -1,0 +1,23 @@
+{
+  "name": "lc",
+  "version": "1.0.0",
+  "description": "lc",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "test-debug": "npm --node-options --inspect-brk test"
+  },
+  "author": "lewis zhang",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.5.0",
+    "jasmine-spec-reporter": "^4.2.1"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  },
+  "_moduleAliases": {
+    "@src": "./src",
+    "@easy": "./src/easy"
+  }
+}
