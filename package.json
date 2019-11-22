@@ -18,6 +18,7 @@
   },
   "_moduleAliases": {
     "@src": "./src",
-    "@easy": "./src/easy"
+    "@easy": "./src/easy",
+    "@utils": "./src/utils"
   }
 }
