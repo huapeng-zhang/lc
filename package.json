@@ -19,6 +19,7 @@
   "_moduleAliases": {
     "@src": "./src",
     "@easy": "./src/easy",
+    "@medium": "./src/medium",
     "@utils": "./src/utils"
   }
 }
