@@ -8,3 +8,5 @@
 - [sum of two integers](./src/easy/sum_of_two_integers_1.js)
 - [path sum iii](./src/easy/path_sum_iii_1.js)
 
+### 中等难度题型
+- [three sum](./src/medium/3sum_1.js) [Leet Code Link](https://leetcode.com/problems/3sum/description/)
