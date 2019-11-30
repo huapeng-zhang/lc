@@ -1,6 +1,8 @@
 # LC
 记录自己的LeetCode题解之路
 
+[LeetCode_logo]:./assets/images/LeetCode_logo_48.png
+
 ## 需要重点关注的题目
 ### 简单题型
 - [house robber](./src/easy/house_robber_1.js)
@@ -9,4 +11,5 @@
 - [path sum iii](./src/easy/path_sum_iii_1.js)
 
 ### 中等难度题型
-- [three sum](./src/medium/3sum_1.js) [Leet Code Link](https://leetcode.com/problems/3sum/description/)
+- [three sum](./src/medium/3sum_1.js) [![leet code logo][LeetCode_logo]](https://leetcode.com/problems/3sum/description/)
+- [next permutation](./src/medium/next_permutation_1.js) [![leet code logo][LeetCode_logo]](https://leetcode.com/problems/next-permutation/)
