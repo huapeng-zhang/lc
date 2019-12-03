@@ -20,6 +20,7 @@
     "@src": "./src",
     "@easy": "./src/easy",
     "@medium": "./src/medium",
-    "@utils": "./src/utils"
+    "@utils": "./src/utils",
+    "@test-utils": "./spec/utils"
   }
 }
