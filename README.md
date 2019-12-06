@@ -17,3 +17,4 @@
 - [combination sum](./src/medium/combination_sum_1.js) [![leet code logo][LeetCodeLogo]](https://leetcode.com/problems/combination-sum/)
 - [combinatiion sum ii](./src/medium/combination_sum_ii_1.js) [![leet code logo][LeetCodeLogo]](https://leetcode.com/problems/combination-sum-ii/)
 - [unique paths](./src/medium/unique_paths_2.js) [![leet code logo][LeetCodeLogo]](https://leetcode.com/problems/unique-paths/description/)
+- [subsets](./src/medium/subsets_2.js)[![leet code logo][LeetCodeLogo]](https://leetcode.com/problems/subsets/)
