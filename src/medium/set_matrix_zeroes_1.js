@@ -6,7 +6,6 @@ var setZeroes = function(matrix) {
     let storeX = null;
     let storeY = null;
 
-    debugger
     for (let i = 0; i < matrix.length; i++) {
         for (let j = 0; j < matrix[i].length; j++) {
             if (matrix[i][j] === 0) {
