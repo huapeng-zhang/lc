@@ -21,3 +21,4 @@
 - [sum root to leaf numbers](./src/medium/sum_root_to_leaf_numbers_2.js)[![leet code logo][LeetCodeLogo]](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
 - [surrounded regions](./src/medium/surrounded_regions_1.js)[![leet code logo][LeetCodeLogo]](https://leetcode.com/problems/surrounded-regions)
 - [palindrome partitioning](./src/medium/palindrome_partitioning_1.js)[![leet code logo][LeetCodeLogo]](https://leetcode.com/problems/palindrome-partitioning)
+- [word break](./src/medium/word_break_1.js)[![leet code logo][LeetCodeLogo]](https://leetcode.com/problems/word-break)需要特别关注
