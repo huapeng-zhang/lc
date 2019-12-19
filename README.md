@@ -2,6 +2,7 @@
 记录自己的LeetCode题解之路
 
 [LeetCodeLogo]:./assets/images/LeetCode_logo_16.png
+[ImportantIcon]:./assets/images/important_icon_16.png
 
 ## 需要重点关注的题目
 ### 简单题型
@@ -21,4 +22,6 @@
 - [sum root to leaf numbers](./src/medium/sum_root_to_leaf_numbers_2.js)[![leet code logo][LeetCodeLogo]](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
 - [surrounded regions](./src/medium/surrounded_regions_1.js)[![leet code logo][LeetCodeLogo]](https://leetcode.com/problems/surrounded-regions)
 - [palindrome partitioning](./src/medium/palindrome_partitioning_1.js)[![leet code logo][LeetCodeLogo]](https://leetcode.com/problems/palindrome-partitioning)
-- [word break](./src/medium/word_break_1.js)[![leet code logo][LeetCodeLogo]](https://leetcode.com/problems/word-break)需要特别关注
+- [word break](./src/medium/word_break_1.js)[![leet code logo][LeetCodeLogo]](https://leetcode.com/problems/word-break)![important][ImportantIcon]
+- [bitwise and of numbers range](./src/medium/bitwise_and_of_numbers_range_1.js)[![LeetCodeLogo]](https://leetcode.com/problems/bitwise-and-of-numbers-range)
+![important][ImportantIcon]
