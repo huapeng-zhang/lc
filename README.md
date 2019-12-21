@@ -25,6 +25,5 @@
 - [word break](./src/medium/word_break_1.js)[![leet code logo][LeetCodeLogo]](https://leetcode.com/problems/word-break)![important icon][ImportantIcon]
 - [bitwise and of numbers range](./src/medium/bitwise_and_of_numbers_range_1.js)[![LeetCodeLogo]](https://leetcode.com/problems/bitwise-and-of-numbers-range)
 ![important icon][ImportantIcon]
-- kth largest element in an array [![leet code logo][LeetCodeLogo]](https://leetcode.com/problems/kth-largest-element-in-an-array/) [sulution 1](
-./src/medium/kth_largest_element_in_an_array_1.js) use heap, [solution 2](./src/medium/kth_largest_element_in_an_array_2.js) use quick select. ![important icon][ImportantIcon]
+- kth largest element in an array [![leet code logo][LeetCodeLogo]](https://leetcode.com/problems/kth-largest-element-in-an-array/). [sulution 1](./src/medium/kth_largest_element_in_an_array_1.js) use heap, [solution 2](./src/medium/kth_largest_element_in_an_array_2.js) use quick select. ![important icon][ImportantIcon]
 - maximal square[![leet code logo][LeetCodeLogo]](https://leetcode.com/problems/maximal-square/). Use dynamic programming. [solution 2](./src/medium/maximal_square_2.js) use just O(n) space. The extra space equals matrix col length. ![important icon][ImportantIcon]
