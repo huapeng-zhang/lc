@@ -27,3 +27,4 @@
 ![important icon][ImportantIcon]
 - kth largest element in an array [![leet code logo][LeetCodeLogo]](https://leetcode.com/problems/kth-largest-element-in-an-array/). [sulution 1](./src/medium/kth_largest_element_in_an_array_1.js) use heap, [solution 2](./src/medium/kth_largest_element_in_an_array_2.js) use quick select. ![important icon][ImportantIcon]
 - maximal square[![leet code logo][LeetCodeLogo]](https://leetcode.com/problems/maximal-square/). Use dynamic programming. [solution 2](./src/medium/maximal_square_2.js) use just O(n) space. The extra space equals matrix col length. ![important icon][ImportantIcon]
+- majority element ii [![leet code logo][LeetCodeLogo]](https://leetcode.com/problems/majority-element-ii/description/)， 使用 "摩尔投票法"。[解法一](./src/medium/majority_element_ii_1.js)
