@@ -30,6 +30,18 @@ function buildNode(nums, index) {
     };
 }
 
+function find(root, val) {
+    if (root && root.val === val) {
+        return root;
+    }
+    if (!root) {
+        return null;
+    }
+
+    return find(root.left, val) || find(root.right, val);
+}
+
 module.exports = {
-    arrayToTree
+    arrayToTree,
+    find
 };
