@@ -27,7 +27,7 @@
 ![important icon][ImportantIcon]
 * kth largest element in an array [![problem link][LeetCodeLogo]](https://leetcode.com/problems/kth-largest-element-in-an-array/). [solution 1](./src/medium/kth_largest_element_in_an_array_1.js) use heap, [solution 2](./src/medium/kth_largest_element_in_an_array_2.js) use quick select. ![important icon][ImportantIcon]
 * maximal square[![problem link][LeetCodeLogo]](https://leetcode.com/problems/maximal-square/). Use dynamic programming. [solution 2](./src/medium/maximal_square_2.js) use just O(n) space. The extra space equals matrix col length. ![important icon][ImportantIcon]
-* majority element ii [![problem link][LeetCodeLogo]](https://leetcode.com/problems/majority-element-ii/description/)， 使用 "摩尔投票法"。[解法一](./src/medium/majority_element_ii_1.js)
+* majority element ii [![problem link][LeetCodeLogo]](https://leetcode.com/problems/majority-element-ii/description/). [解法一](./src/medium/majority_element_ii_1.js)使用 "摩尔投票法"。
 * LCA 二叉树最近共同祖先问题[![problem link][LeetCodeLogo]](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree). 
 [递归解法](./src/medium/lowest_common_ancestor_of_a_binary_tree_2.js)递归结题的思路，在左子树、右子树查找两个节点，可能的结果有：
   * 该节点就是其中的一个节点，则返回该节点
