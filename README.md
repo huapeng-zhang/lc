@@ -34,3 +34,7 @@
   * 两个节点都不在左边，那么肯定都在右边，返回右边找到的节点
   * 两个节点都不在右边，那边肯定都在左边，返回左边找到的节点
   * 左右两边都找到一个节点，则返回当前节点
+* search a 2d matrix ii.[![problem link][LeetCodeLogo]](https://leetcode.com/problems/search-a-2d-matrix-ii) [递归解法](./src/medium/search_a_2d_matrix_ii_1.js)
+每次仅能将搜索区域缩减为之前的3/4，效率一般。[解法二](./src/medium/search_a_2d_matrix_ii_2.js)从左下角或右上角扫描矩阵，时间复杂度为O(m+n)代码简单，且有较高的效率。
+* perfect square.[![problem link][LeetCodeLogo]](https://leetcode.com/problems/perfect-squares) [解法一](./src/medium/perfect_squares_1.js)使用动态规划，但转化方程较复杂。![important 
+icon][ImportantIcon]
