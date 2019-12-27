@@ -38,3 +38,6 @@
 每次仅能将搜索区域缩减为之前的3/4，效率一般。[解法二](./src/medium/search_a_2d_matrix_ii_2.js)从左下角或右上角扫描矩阵，时间复杂度为O(m+n)代码简单，且有较高的效率。
 * perfect square.[![problem link][LeetCodeLogo]](https://leetcode.com/problems/perfect-squares) [解法一](./src/medium/perfect_squares_1.js)使用动态规划，但转化方程较复杂。![important 
 icon][ImportantIcon]
+* best time to buy and sell stock with cooldown. [![problem link][LeetCodeLogo]](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown) 
+非常经典的动态规划题目，状态转移方程比较复杂，需要两个方程。非常重要！![important icon][ImportantIcon]![important icon][ImportantIcon][递归解法](./src/medium/best_time_to_buy_and_sell_stock_with_cooldown_1.js)
+* coin change. [![problem icon][LeetCodeLogo]](https://leetcode.com/problems/coin-change/description/)[动态规划解法](./src/medium/coin_change_1.js)
