@@ -41,3 +41,8 @@ icon][ImportantIcon]
 * best time to buy and sell stock with cooldown. [![problem link][LeetCodeLogo]](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown) 
 非常经典的动态规划题目，状态转移方程比较复杂，需要两个方程。非常重要！![important icon][ImportantIcon]![important icon][ImportantIcon][递归解法](./src/medium/best_time_to_buy_and_sell_stock_with_cooldown_1.js)
 * coin change. [![problem icon][LeetCodeLogo]](https://leetcode.com/problems/coin-change/description/)[动态规划解法](./src/medium/coin_change_1.js)
+* increasing triple subsequence.[![problem link][LeetCodeLogo]](https://leetcode.com/problems/increasing-triplet-subsequence)![important icon][ImportantIcon]需要理解[解法](
+./src/medium/increasing_triplet_subsequence_1.js)的思想：
+  * 维护一个有序数组（仅通过两个变量的方式）
+  * 更新数组使数组有更大的可能性满足条件
+  * 更新数组要确保判断条件始终成立，即若更新后的数组满足条件，那么更新前的数组一定也满足条件
