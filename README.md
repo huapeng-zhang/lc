@@ -46,3 +46,5 @@ icon][ImportantIcon]
   * 维护一个有序数组（仅通过两个变量的方式）
   * 更新数组使数组有更大的可能性满足条件
   * 更新数组要确保判断条件始终成立，即若更新后的数组满足条件，那么更新前的数组一定也满足条件
+* water and jup problem. [![problem link][LeetCodeLogo]](https://leetcode.com/problems/water-and-jug-problem) ![important icon][ImportantIcon][裴蜀定理解法](
+./src/medium/water_and_jug_problem_1.js). 了解哪些场景可以使用裴蜀定理以及**裴蜀定理**的内容：对于两个整数a, b其最大公约数定义为gcd(a,b)那么对于任意的两个正整数x,y，x*a+y*b其一定是gcd(a,b)的倍数。
