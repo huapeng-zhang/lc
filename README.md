@@ -48,3 +48,6 @@ icon][ImportantIcon]
   * 更新数组要确保判断条件始终成立，即若更新后的数组满足条件，那么更新前的数组一定也满足条件
 * water and jup problem. [![problem link][LeetCodeLogo]](https://leetcode.com/problems/water-and-jug-problem) ![important icon][ImportantIcon][裴蜀定理解法](
 ./src/medium/water_and_jug_problem_1.js). 了解哪些场景可以使用裴蜀定理以及**裴蜀定理**的内容：对于两个整数a, b其最大公约数定义为gcd(a,b)那么对于任意的两个正整数x,y，x*a+y*b其一定是gcd(a,b)的倍数。
+* kth smallest element in a sorted matrix.[![problem link][LeetCodeLogo]](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix)![important 
+icon][ImportantIcon][解法一](./src/medium/kth_smallest_element_in_a_sorted_matrix_1.js)使用堆来查找第k小的元素，需要注意某一列扫描完毕时堆的长度减一，以及如何缩减堆的长度。[解法二](
+./src/medium/kth_largest_element_in_an_array_2.js)使用二分查找，需要注意的是当找到某个数n，矩阵中小于等于n的个数为k时需要继续缩小搜索空间的上限，直到搜索空间不存在。此行为是为了避免矩阵中不存在n。
