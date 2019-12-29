@@ -51,3 +51,5 @@ icon][ImportantIcon]
 * kth smallest element in a sorted matrix.[![problem link][LeetCodeLogo]](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix)![important 
 icon][ImportantIcon][解法一](./src/medium/kth_smallest_element_in_a_sorted_matrix_1.js)使用堆来查找第k小的元素，需要注意某一列扫描完毕时堆的长度减一，以及如何缩减堆的长度。[解法二](
 ./src/medium/kth_smallest_element_in_a_sorted_matrix_2.js)使用二分查找，需要注意的是当找到某个数n，矩阵中小于等于n的个数为k时需要继续缩小搜索空间的上限，直到搜索空间不存在。此行为是为了避免矩阵中不存在n。
+* partition equal subset sum. [![problem link][LeetCodeLogo]](https://leetcode.com/problems/partition-equal-subset-sum)![important icon][ImportantIcon]![important 
+icon][ImportantIcon]使用经典的*背包问题*[解题](./src/medium/partition_equal_subset_sum_1.js)。
