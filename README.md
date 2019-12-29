@@ -53,3 +53,4 @@ icon][ImportantIcon][解法一](./src/medium/kth_smallest_element_in_a_sorted_ma
 ./src/medium/kth_smallest_element_in_a_sorted_matrix_2.js)使用二分查找，需要注意的是当找到某个数n，矩阵中小于等于n的个数为k时需要继续缩小搜索空间的上限，直到搜索空间不存在。此行为是为了避免矩阵中不存在n。
 * partition equal subset sum. [![problem link][LeetCodeLogo]](https://leetcode.com/problems/partition-equal-subset-sum)![important icon][ImportantIcon]![important 
 icon][ImportantIcon]使用经典的*背包问题*[解题](./src/medium/partition_equal_subset_sum_1.js)。
+* 4 sum ii. [![problem link][LeetCodeIcon]](https://leetcode.com/problems/4sum-ii) [解法一](./src/medium/4sum_ii_1.js)将4层遍历缩减到2层遍历，但需要注意时间与空间优化的细节。
