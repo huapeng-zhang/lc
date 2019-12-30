@@ -53,4 +53,7 @@ icon][ImportantIcon][解法一](./src/medium/kth_smallest_element_in_a_sorted_ma
 ./src/medium/kth_smallest_element_in_a_sorted_matrix_2.js)使用二分查找，需要注意的是当找到某个数n，矩阵中小于等于n的个数为k时需要继续缩小搜索空间的上限，直到搜索空间不存在。此行为是为了避免矩阵中不存在n。
 * partition equal subset sum. [![problem link][LeetCodeLogo]](https://leetcode.com/problems/partition-equal-subset-sum)![important icon][ImportantIcon]![important 
 icon][ImportantIcon]使用经典的*背包问题*[解题](./src/medium/partition_equal_subset_sum_1.js)。
-* 4 sum ii. [![problem link][LeetCodeIcon]](https://leetcode.com/problems/4sum-ii) [解法一](./src/medium/4sum_ii_1.js)将4层遍历缩减到2层遍历，但需要注意时间与空间优化的细节。
+* 4 sum ii. [![problem link][LeetCodeLogo]](https://leetcode.com/problems/4sum-ii) [解法一](./src/medium/4sum_ii_1.js)将4层遍历缩减到2层遍历，但需要注意时间与空间优化的细节。
+* ones and zeroes. [![problem link][LeetCodeLogo]](https://leetcode.com/problems/ones-and-zeroes)![important icon][ImportantIcon]![important icon][ImportantIcon][解法一](
+./src/medium/ones_and_zeroes_1.js)使用*背包*思想。有两个背包，一个装zero一个装one。判断能否再装下一个字符串的条件时必须同时装下这个字符串中的zero和one。解题时需要注意的是在更新dp数组是需要从后往前更新，防止在一轮更新中后面的dp使用本轮之前更新的dp。[解法二](
+./src/medium/ones_and_zeroes_2.js)首选尝试暴力破解带需要花费太长的时间，之后通过cache，减少重复扫描，减少运算时间。主要注意该解法中的key。
