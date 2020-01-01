@@ -57,3 +57,4 @@ icon][ImportantIcon]使用经典的*背包问题*[解题](./src/medium/partition
 * ones and zeroes. [![problem link][LeetCodeLogo]](https://leetcode.com/problems/ones-and-zeroes)![important icon][ImportantIcon]![important icon][ImportantIcon][解法一](
 ./src/medium/ones_and_zeroes_1.js)使用*背包*思想。有两个背包，一个装zero一个装one。判断能否再装下一个字符串的条件时必须同时装下这个字符串中的zero和one。解题时需要注意的是在更新dp数组是需要从后往前更新，防止在一轮更新中后面的dp使用本轮之前更新的dp。[解法二](
 ./src/medium/ones_and_zeroes_2.js)首选尝试暴力破解带需要花费太长的时间，之后通过cache，减少重复扫描，减少运算时间。主要注意该解法中的key。
+* coin change 2. [![problem link][LeetCodeLogo]](https://leetcode.com/problems/coin-change-2)![important icon][ImportantIcon]两种解法都使用*背包*解题思想。[解法一](./src/medium/coin_change_2_1.js)使用常规的思路从后往前更新dp数组。由于不限制某种面额硬币的数量，[解法二](./src/medium/coin_change_2_2.js)采用从前向后更新dp数组，避免了最内层针对硬币面额的循环，提高了一定的效率。
