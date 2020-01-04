@@ -61,3 +61,5 @@ icon][ImportantIcon]使用经典的**背包问题**[解题](./src/medium/partiti
 .js)使用常规的思路从后往前更新dp数组。由于不限制某种面额硬币的数量，[解法二](./src/medium/coin_change_2_2.js)采用从前向后更新dp数组，避免了最内层针对硬币面额的循环，提高了一定的效率。
 * friend circles. [![problem link][LeetCodeLogo]](https://leetcode.com/problems/friend-circles)![important icon][ImportantIcon][解法一](./src/medium/friend_circles_1.js)
 使用比较传统的DFS算法。[解法二](./src/medium/friend_circles_2.js)使用**Union Find**算法，简化了算法的复杂度，降低了运行时间。但需要注意在更新parent数组时更新的是最根节点的父节点。
+* koko eating bananas. [![problem link][LeetCodeLogo]](https://leetcode.com/problems/koko-eating-bananas)[解法一](./src/medium/koko_eating_bananas_1.js)
+使用简单的二分查找法寻找最小的吃香蕉速度，循环结束时(low === high)需要确保该最小值任然要满足吃完的条件，要注意**如何更新low和high**。
