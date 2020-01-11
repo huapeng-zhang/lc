@@ -21,6 +21,7 @@
     "@src": "./src",
     "@easy": "./src/easy",
     "@medium": "./src/medium",
+    "@hard": "./src/hard",
     "@model": "./src/model",
     "@utils": "./src/utils",
     "@test-utils": "./spec/utils"

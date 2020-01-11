@@ -66,3 +66,6 @@ icon][ImportantIcon]使用经典的**背包问题**[解题](./src/medium/partiti
 * super egg drop. [![problem link]](https://leetcode.com/problems/super-egg-drop)![important icon][ImportantIcon]![important icon][ImportantIcon][解法一](
 ./src/medium/super_egg_drop_1.js)使用**动态规划**思想。```dp[i][j]```表示i个鸡蛋j次操作最多可以搜索的楼层数；
 ```dp[i][j] = dp[i-1][j-1] + 1 /*鸡蛋碎了*/ + dp[i][j-1] /*鸡蛋没碎*/;```。
+### 困难题型
+* 求两个有序数组的**中位数**。[![problem link][LeetCodeLogo]](https://leetcode.com/problems/median-of-two-sorted-arrays)![important 
+icon][ImportantIcon]首先需要理解什么是中位数，以及与平均值的差异。简单理解中位数就是有序数组中中间位置的数值。其次就是注意[二分查找解法](./src/hard/median_of_two_sorted_arrays_1.js)中缩减查找范围的条件。
