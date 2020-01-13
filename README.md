@@ -69,3 +69,8 @@ icon][ImportantIcon]使用经典的**背包问题**[解题](./src/medium/partiti
 ### 困难题型
 * 求两个有序数组的**中位数**。[![problem link][LeetCodeLogo]](https://leetcode.com/problems/median-of-two-sorted-arrays)![important 
 icon][ImportantIcon]首先需要理解什么是中位数，以及与平均值的差异。简单理解中位数就是有序数组中中间位置的数值。其次就是注意[二分查找解法](./src/hard/median_of_two_sorted_arrays_1.js)中缩减查找范围的条件。
+* 求最长合法括号字符串长度。[![problem link][LeetCodeLogo]](https://leetcode.com/problems/longest-valid-parentheses)![important icon][ImportantIcon]需要注意[解法](
+./src/hard/longest_valid_parentheses_1.js)中dp[i+1]的意义，以及状态转移方程。
+  * dp[i+1]表示以第i个字符串结尾的最长合法字符串长度
+  * 若第i个字符为')'且前一个合法子串之前的一个字符为'('，则dp[i+1]=2+')'之前的合法子串的长度+'('之前的合法子串长度
+  * 注意保护变量的使用，减少循环中的判断
