@@ -74,3 +74,6 @@ icon][ImportantIcon]首先需要理解什么是中位数，以及与平均值的
   * dp[i+1]表示以第i个字符串结尾的最长合法字符串长度
   * 若第i个字符为')'且前一个合法子串之前的一个字符为'('，则dp[i+1]=2+')'之前的合法子串的长度+'('之前的合法子串长度
   * 注意保护变量的使用，减少循环中的判断
+* 计算总的雨水收集量。[![problem link][LeetCodeLogo]](https://leetcode.com/problems/trapping-rain-water)![important icon][ImportantIcon]![important icon][ImportantIcon][分治解法](
+./src/hard/trapping_rain_water_1.js)中dp[i+1]表示以i位置结尾时的雨水收集量，状态转移方程较复杂，需要找到该位置之前的最高高度所在的位置，并重新计算最高高度所在位置与当前位置的雨水容量。[解法二](./src/hard/trapping_rain_water_2.js)
+通过累加每一个位置的雨水容量，求得总的雨水容量。某一位置的雨水容量等于其左侧的最高高度与右侧的最高高度中较小的高度减去当前高度，若为负值则记为0。代码简单效率较高，仅需要扫描两次数组。
