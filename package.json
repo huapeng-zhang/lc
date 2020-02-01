@@ -22,6 +22,7 @@
     "@easy": "./src/easy",
     "@medium": "./src/medium",
     "@hard": "./src/hard",
+    "@target_offer": "./src/target_offer",
     "@model": "./src/model",
     "@utils": "./src/utils",
     "@test-utils": "./spec/utils"
