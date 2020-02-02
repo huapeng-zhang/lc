@@ -10,7 +10,7 @@ Queue.prototype.append = function(val) {
 
 Queue.prototype.delete = function() {
     if (this.stackIn.length === 0 && this.stackOut.length === 0) {
-        throw Error('Queue is empty!');
+        throw new Error('Queue is empty!');
     }
 
     if (this.stackOut.length === 0) {
