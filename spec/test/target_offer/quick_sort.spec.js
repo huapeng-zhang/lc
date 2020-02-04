@@ -1,4 +1,5 @@
-const s1 = require('@target_offer/quick_sort');
+const s1 = require('@target_offer/quick_sort_1');
+const s2 = require('@target_offer/quick_sort_2');
 
 describe('quick sort', () => {
     let cases = null;
@@ -31,6 +32,12 @@ describe('quick sort', () => {
     it('solution 1', () => {
         cases.forEach(c => {
             expect(s1.apply(null, c.input)).toEqual(c.output);
+        });
+    });
+
+    it('solution 2', () => {
+        cases.forEach(c => {
+            expect(s2.apply(null, c.input)).toEqual(c.output);
         });
     });
 });
