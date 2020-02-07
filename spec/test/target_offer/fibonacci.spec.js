@@ -12,8 +12,8 @@ describe('fibonacci', () => {
             input: [1],
             output: 1
         }, {
-            input: [40],
-            output: 102334155
+            input: [30],
+            output: 832040
         }, {
             input: [-1],
             output: 0
