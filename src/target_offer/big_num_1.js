@@ -108,7 +108,6 @@ BigNum.prototype.equals = function (other) {
 };
 
 BigNum.prototype.absEquals = function(other) {
-    debugger
     let mostSignificantPos1 = this.data.length - 1;
     while (mostSignificantPos1 >= 0 && this.data[mostSignificantPos1] === 0) {
         mostSignificantPos1--;
