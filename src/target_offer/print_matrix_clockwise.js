@@ -37,7 +37,6 @@ function printMatrixClockWise(matrix) {
         startJ++;
         endJ--;
     }
-    debugger
     return ret;
 }
 
