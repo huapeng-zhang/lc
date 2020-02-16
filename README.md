@@ -1,10 +1,10 @@
 # LC
-记录LeetCode题解之路
+算法练习
 
 [LeetCodeLogo]:./assets/images/LeetCode_logo_16.png
 [ImportantIcon]:./assets/images/important_icon_16.png
 
-## 需要重点关注的题目
+## LeetCode需要重点关注的题目
 ### 简单题型
 * [house robber](./src/easy/house_robber_1.js)
 * [max sub-array](./src/easy/max_subarray_2.js)
@@ -77,3 +77,8 @@ icon][ImportantIcon]首先需要理解什么是中位数，以及与平均值的
 * 计算总的雨水收集量。[![problem link][LeetCodeLogo]](https://leetcode.com/problems/trapping-rain-water)![important icon][ImportantIcon]![important icon][ImportantIcon][分治解法](
 ./src/hard/trapping_rain_water_1.js)中dp[i+1]表示以i位置结尾时的雨水收集量，状态转移方程较复杂，需要找到该位置之前的最高高度所在的位置，并重新计算最高高度所在位置与当前位置的雨水容量。[解法二](./src/hard/trapping_rain_water_2.js)
 通过累加每一个位置的雨水容量，求得总的雨水容量。某一位置的雨水容量等于其左侧的最高高度与右侧的最高高度中较小的高度减去当前高度，若为负值则记为0。代码简单效率较高，仅需要扫描两次数组。
+## Target Offer
+* 复制复杂链表。![important icon][ImportantIcon]复杂链表中包含两个指针：next和sibling，sibling可以指向任意一个兄弟节点。[解法](./src/target_offer/duplicate_complex_list.js)将复制过程分解为三部：
+  1. 复制每一个节点，并将复制的新节点链接在原节点之后。
+  2. 设置新节点的sibling指针。dup.sibling = node.sibling.next。该步骤完成之后，所有新节点的sibling指针都已指向正确的节点。
+  3. 将链表拆分成新旧链表。
