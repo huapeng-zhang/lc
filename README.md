@@ -63,7 +63,7 @@ icon][ImportantIcon]使用经典的**背包问题**[解题](./src/medium/partiti
 使用比较传统的DFS算法。[解法二](./src/medium/friend_circles_2.js)使用**Union Find**算法，简化了算法的复杂度，降低了运行时间。但需要注意在更新parent数组时更新的是最根节点的父节点。
 * koko eating bananas. [![problem link][LeetCodeLogo]](https://leetcode.com/problems/koko-eating-bananas)[解法一](./src/medium/koko_eating_bananas_1.js)
 使用简单的二分查找法寻找最小的吃香蕉速度，循环结束时(low === high)需要确保该最小值任然要满足吃完的条件，要注意**如何更新low和high**。
-* super egg drop. [![problem link]](https://leetcode.com/problems/super-egg-drop)![important icon][ImportantIcon]![important icon][ImportantIcon][解法一](
+* super egg drop. [![problem link][LeetCodeLogo]](https://leetcode.com/problems/super-egg-drop)![important icon][ImportantIcon]![important icon][ImportantIcon][解法一](
 ./src/medium/super_egg_drop_1.js)使用**动态规划**思想。```dp[i][j]```表示i个鸡蛋j次操作最多可以搜索的楼层数；
 ```dp[i][j] = dp[i-1][j-1] + 1 /*鸡蛋碎了*/ + dp[i][j-1] /*鸡蛋没碎*/;```。
 ### 困难题型
