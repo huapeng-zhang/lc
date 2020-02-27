@@ -82,3 +82,8 @@ icon][ImportantIcon]首先需要理解什么是中位数，以及与平均值的
   1. 复制每一个节点，并将复制的新节点链接在原节点之后。
   2. 设置新节点的sibling指针。dup.sibling = node.sibling.next。该步骤完成之后，所有新节点的sibling指针都已指向正确的节点。
   3. 将链表拆分成新旧链表。
+* 计算"1"的个数。![important icon][ImportantIcon]![important icon][ImportantIcon]给定一个正整数n，计算从1到n之前1数字1出现的个数。[解法一](./src/target_offer/num_of_one_count.js)
+使用递归思路计算每一位上"1"出现的次数，例如对于正整数12X34，计算百位上1出现的次数：
+  1. 若X == 0，则百位上1出现的次数为 12 X 100 = 1200次，从1100~12199。
+  2. 若X == 1，则在case 1的基础上增加34+1次，范围从12100~12134。
+  3. 若 X > 1，则在case 1的基础上增加100次，范围从12100~12199。
