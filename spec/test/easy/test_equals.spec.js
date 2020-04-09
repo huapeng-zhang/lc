@@ -4,7 +4,7 @@ describe('compare === vs object', () => {
         const head = {next: null};
         let prev = head;
 
-        for (let i = 0; i < 1000000; i++) {
+        for (let i = 0; i < 10000; i++) {
             const node = {val: i, next: null};
             prev.next = node;
             prev = node;
@@ -16,7 +16,7 @@ describe('compare === vs object', () => {
         for (let i = 0; i < 1000000; i++) {
             node = node.next;
         }
-        const loopCount = 1000000000;
+        const loopCount = 1000000;
         // start to compare with ===
         node = head;
         const start1 = Date.now();
